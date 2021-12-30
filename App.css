@@ -1,0 +1,81 @@
+body{
+  background-color: rgb(255, 255, 255);
+}
+.navbar{
+  background-color: rgb(40, 40, 40);
+}
+.nav-items{
+  display: flex;
+  
+  
+}
+button{
+  
+  margin-left: 1150px;
+  height: 45px;
+  width: 120px;
+  border-radius: 8px;
+  background-color:rgb(4, 0, 255);
+  color: white;
+  font-weight: bold;
+  font-family:Arial, Helvetica, sans-serif
+}
+
+button:hover{
+  background-color: white;
+  color: black;
+}
+.avatar{
+  border-radius: 50%;
+}
+
+#main{
+  padding: 25px 50px;
+  margin-left:auto;
+  margin-right: auto;
+  display: none;
+}
+.profile{
+  box-shadow: 0 2px 4px 0 rgba(208, 208, 208, 0.2);
+  width: 300px;
+  margin: 20px;
+  text-align: center;
+  font-family: arial;
+  padding: 25px;
+  border-radius: 18px;
+  background-color: white;
+}
+
+.profile:hover{
+  transition: 200ms;
+  box-shadow: 16px 16px 16px 16px rgb(46, 46, 46);
+  transform: translateY(-3px);
+
+}
+.email{
+  color:black;
+  font-size: 18px;
+  overflow-wrap: anywhere;
+}
+.name{
+  padding-top: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+
+.loader{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.h2{
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  font-family: cursive;
+  margin-left: 30px;
+}
+.footer{
+  text-align: center;
+}
